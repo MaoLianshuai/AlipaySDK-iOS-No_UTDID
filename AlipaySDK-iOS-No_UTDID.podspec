@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     s.author       = { "maolianshuai@163.com" => "maolianshuai@163.com" }                                       #作者
     s.platform     = :ios, "9.0"                                                                                #兼容最低系统版本
     s.source       = { :git => "https://github.com/MaoLianshuai/AlipaySDK-iOS-No_UTDID.git", :tag => s.version} #项目源码
-    s.source_files  = "AlipaySDKiOS/AlipaySDK.framework/**/*"                                                   #项目源码目录
+    s.source_files  = "AlipaySDK-iOS-No_UTDID/AlipaySDK.framework/**/*"                                         #项目源码目录
     s.resource     = 'AlipaySDKiOS/AlipaySDK.bundle'                                                            #项目资源
     s.requires_arc = true                                                                                       #项目支持RAC
     s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"   #项目依赖仓库
